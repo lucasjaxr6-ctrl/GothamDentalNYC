@@ -11,12 +11,12 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Gotham Dental | Boutique Dentist near Union Square, NYC">
   <meta property="og:description" content="General, cosmetic and specialist dentistry under one roof, in a calm space hung with contemporary art.">
-  <meta property="og:image" content="assets/img/hero.jpg?v=202611231625">
+  <meta property="og:image" content="assets/img/hero.jpg?v=202611231630">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css?v=202611231625">
+  <link rel="stylesheet" href="assets/css/styles.css?v=202611231630">
 
   <script type="application/ld+json">
   {
@@ -75,7 +75,7 @@
       <a href="#reviews">Reviews</a>
       <a href="#visit">Visit</a>
       <a class="nav__phone" href="tel:+12122531850">(212) 253-1850</a>
-      <a class="btn btn--solid btn--sm" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental" data-book>Book online</a>
+      <a data-cursor="Book" class="btn btn--solid btn--sm" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental" data-book>Book online</a>
     </nav>
   </div>
 </header>
@@ -85,7 +85,7 @@
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="hero__media" aria-hidden="true">
-      <img src="assets/img/hero.jpg?v=202611231625" alt="" width="2400" height="1800" fetchpriority="high">
+      <img src="assets/img/hero.jpg?v=202611231630" alt="" width="2400" height="1800" fetchpriority="high">
     </div>
     <div class="wrap hero__inner">
       <div class="hero__copy">
@@ -153,35 +153,68 @@
         <p class="eyebrow">Our care</p>
         <h2>Complete dentistry, <em>quietly done well.</em></h2>
       </div>
-      <div class="care">
+      <div class="care" data-cursor="View">
         <div data-reveal class="care__col">
           <h3>Preventive</h3>
           <ul>
-            <li><a href="https://gothamdental.com/hygiene">Cleanings &amp; exams</a></li>
-            <li><a href="https://gothamdental.com/digital-xrays">Digital X-rays</a></li>
-            <li><a href="https://gothamdental.com/periodontics">Periodontal therapy</a></li>
-            <li><a href="https://gothamdental.com/emergency">Emergency care</a></li>
+            <li data-preview="assets/img/gallery3.jpg"><a href="https://gothamdental.com/hygiene">Cleanings &amp; exams</a></li>
+            <li data-preview="assets/img/tooth-render.jpg"><a href="https://gothamdental.com/digital-xrays">Digital X-rays</a></li>
+            <li data-preview="assets/img/smile5.jpg"><a href="https://gothamdental.com/periodontics">Periodontal therapy</a></li>
+            <li data-preview="assets/img/hero.jpg"><a href="https://gothamdental.com/emergency">Emergency care</a></li>
           </ul>
         </div>
         <div data-reveal class="care__col">
           <h3>Cosmetic</h3>
           <ul>
-            <li><a href="https://gothamdental.com/whitening">Teeth whitening</a></li>
-            <li><a href="https://gothamdental.com/veneers">Veneers</a></li>
-            <li><a href="https://gothamdental.com/invisalign">Invisalign®</a></li>
-            <li>Bonding &amp; smile design</li>
+            <li data-preview="assets/img/smile1.jpg"><a href="https://gothamdental.com/whitening">Teeth whitening</a></li>
+            <li data-preview="assets/img/smile3.jpg"><a href="https://gothamdental.com/veneers">Veneers</a></li>
+            <li data-preview="assets/img/aligner.jpg"><a href="https://gothamdental.com/invisalign">Invisalign®</a></li>
+            <li data-preview="assets/img/smile2.jpg">Bonding &amp; smile design</li>
           </ul>
         </div>
         <div data-reveal class="care__col">
           <h3>Restorative &amp; surgical</h3>
           <ul>
-            <li><a href="https://gothamdental.com/fillings">Fillings</a></li>
-            <li><a href="https://gothamdental.com/crowns">Same-day crowns</a></li>
-            <li><a href="https://gothamdental.com/implants">Dental implants</a></li>
-            <li><a href="https://gothamdental.com/endodontics">Root canal (endodontics)</a></li>
-            <li><a href="https://gothamdental.com/oral-surgery">Oral surgery</a></li>
+            <li data-preview="assets/img/gallery1.jpg"><a href="https://gothamdental.com/fillings">Fillings</a></li>
+            <li data-preview="assets/img/gallery3.jpg"><a href="https://gothamdental.com/crowns">Same-day crowns</a></li>
+            <li data-preview="assets/img/implant.jpg"><a href="https://gothamdental.com/implants">Dental implants</a></li>
+            <li data-preview="assets/img/tooth-render.jpg"><a href="https://gothamdental.com/endodontics">Root canal (endodontics)</a></li>
+            <li data-preview="assets/img/gallery4.jpg"><a href="https://gothamdental.com/oral-surgery">Oral surgery</a></li>
           </ul>
         </div>
+      </div>
+      <div class="feature-cards">
+        <a data-reveal class="fcard" href="https://gothamdental.com/invisalign" data-tilt data-cursor="Explore">
+          <span class="fcard__img"><img src="assets/img/aligner.jpg" alt="Hands placing a clear aligner on teeth" width="900" height="600" loading="lazy"></span>
+          <span class="fcard__body"><span class="fcard__kicker">Straighten</span><span class="fcard__title">Invisalign® clear aligners</span></span>
+        </a>
+        <a data-reveal class="fcard" href="https://gothamdental.com/veneers" data-tilt data-cursor="Explore">
+          <span class="fcard__img"><img src="assets/img/smile1.jpg" alt="Close-up of a woman with a bright, natural smile" width="900" height="600" loading="lazy"></span>
+          <span class="fcard__body"><span class="fcard__kicker">Refine</span><span class="fcard__title">Veneers &amp; whitening</span></span>
+        </a>
+        <a data-reveal class="fcard" href="https://gothamdental.com/implants" data-tilt data-cursor="Explore">
+          <span class="fcard__img"><img src="assets/img/implant.jpg" alt="Dental model showing a full arch of teeth" width="900" height="600" loading="lazy"></span>
+          <span class="fcard__body"><span class="fcard__kicker">Restore</span><span class="fcard__title">Implants &amp; same-day crowns</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SMILES -->
+  <section class="smiles" aria-label="Smiles">
+    <div class="wrap smiles__head">
+      <h2 data-reveal>Smiles that still feel <em>like yours.</em></h2>
+      <p data-reveal class="smiles__note">Natural-looking cosmetic work, planned around your face, not a template.</p>
+    </div>
+    <div class="strip" data-cursor="Drag" tabindex="0" aria-label="Photo strip, drag or use arrow keys to scroll">
+      <div class="strip__track">
+        <figure class="strip__item"><img src="assets/img/smile3.jpg" alt="" loading="lazy"></figure>
+        <figure class="strip__item strip__item--wide"><img src="assets/img/smile1.jpg" alt="" loading="lazy"></figure>
+        <figure class="strip__item"><img src="assets/img/smile4.jpg" alt="" loading="lazy"></figure>
+        <figure class="strip__item"><img src="assets/img/smile6.jpg" alt="" loading="lazy"></figure>
+        <figure class="strip__item strip__item--wide"><img src="assets/img/smile2.jpg" alt="" loading="lazy"></figure>
+        <figure class="strip__item"><img src="assets/img/smile5.jpg" alt="" loading="lazy"></figure>
+        <figure class="strip__item"><img src="assets/img/smile7.jpg" alt="" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -197,15 +230,15 @@
         <p class="section__aside">Our office has been written about by the <em>T Magazine</em> and the <em>Financial Times</em> for its art collection. Patients tell us it is the first dental office they have ever looked forward to visiting.</p>
       </div>
       <div class="gallery">
-        <figure data-reveal class="gallery__item gallery__item--wide">
+        <figure data-reveal data-tilt data-cursor="View" class="gallery__item gallery__item--wide">
           <span class="frame"><img data-parallax-img src="assets/img/gallery3.jpg" alt="Bright treatment room with a large window, plants and framed artwork" width="1000" height="669" loading="lazy"></span>
           <figcaption class="label"><span class="label__no">Plate 01</span> Treatment room with natural light.</figcaption>
         </figure>
-        <figure data-reveal class="gallery__item">
+        <figure data-reveal data-tilt data-cursor="View" class="gallery__item">
           <span class="frame"><img data-parallax-img src="assets/img/gallery2.jpg" alt="Blue neon artwork glowing on a dark wall" width="1000" height="667" loading="lazy"></span>
           <figcaption class="label"><span class="label__no">Plate 02</span> Neon work from the practice collection.</figcaption>
         </figure>
-        <figure data-reveal class="gallery__item">
+        <figure data-reveal data-tilt data-cursor="View" class="gallery__item">
           <span class="frame"><img data-parallax-img src="assets/img/gallery4.jpg" alt="Waiting room with modern chairs, a round glass table and artwork" width="1000" height="667" loading="lazy"></span>
           <figcaption class="label"><span class="label__no">Plate 03</span> The waiting room.</figcaption>
         </figure>
@@ -219,6 +252,15 @@
       <div data-reveal class="section__head">
         <p class="eyebrow">Technology</p>
         <h2>Precise tools, <em>shorter visits.</em></h2>
+      </div>
+      <div class="render" data-render data-cursor="Move">
+        <div class="render__stage">
+          <img class="render__img" src="assets/img/tooth-render.jpg" alt="Two tooth models, one cut open to show the root canal and nerve" width="1800" height="990" loading="lazy">
+          <span class="render__glare" aria-hidden="true"></span>
+          <span class="chip chip--a" style="--z: 90px">CEREC · crown in one visit</span>
+          <span class="chip chip--b" style="--z: 60px">CariVu · sees decay before X-rays</span>
+          <span class="chip chip--c" style="--z: 120px">The Wand · pressure, not pain</span>
+        </div>
       </div>
       <div class="tech">
         <article data-reveal class="tech__item">
@@ -257,25 +299,25 @@
         <h2>Over twenty years in <em>their specialty fields.</em></h2>
       </div>
       <div class="team">
-        <article data-reveal class="doc">
+        <article data-reveal class="doc" data-tilt>
           <img src="assets/img/samuelian.jpg" alt="Portrait of Dr. Avo Samuelian" width="540" height="480" loading="lazy">
           <h3>Dr. Avo Samuelian, DDS</h3>
           <p class="doc__role">General &amp; cosmetic dentistry</p>
           <p>NYU College of Dentistry, Omicron Kappa Upsilon. In private practice since 1998.</p>
         </article>
-        <article data-reveal class="doc">
+        <article data-reveal class="doc" data-tilt>
           <img src="assets/img/hakopian.jpg" alt="Portrait of Dr. Carolina Hakopian" width="540" height="480" loading="lazy">
           <h3>Dr. Carolina Hakopian, DMD</h3>
           <p class="doc__role">Periodontics, implants &amp; general care</p>
           <p>University of São Paulo, NYU and Eastman Institute. Fluent in Portuguese and Spanish.</p>
         </article>
-        <article data-reveal class="doc">
+        <article data-reveal class="doc" data-tilt>
           <img src="assets/img/toscano.jpg" alt="Portrait of Dr. Nicholas Toscano" width="571" height="558" loading="lazy">
           <h3>Dr. Nicholas Toscano, DDS</h3>
           <p class="doc__role">Board-certified periodontist</p>
           <p>Columbia University, 13 years with the U.S. Navy. Diplomate, American Board of Periodontology.</p>
         </article>
-        <article data-reveal class="doc">
+        <article data-reveal class="doc" data-tilt>
           <img src="assets/img/montazem.jpg" alt="Portrait of Dr. Andre Montazem" width="540" height="480" loading="lazy">
           <h3>Dr. Andre Montazem</h3>
           <p class="doc__role">Oral &amp; maxillofacial surgeon</p>
@@ -388,8 +430,9 @@
           <a class="btn btn--line-light" href="https://www.google.com/maps/place/Gotham+Dental/@40.739007,-73.9928527,17z">Get directions</a>
         </div>
       </div>
-      <figure class="visit__art" data-parallax>
-        <span class="frame"><img src="assets/img/office.jpg" alt="Lounge chairs in a softly lit blue room" width="1500" height="800" loading="lazy"></span>
+      <figure class="visit__art" data-parallax data-mouse-parallax>
+        <span class="frame"><img src="assets/img/flatiron.jpg" alt="The Flatiron Building with yellow taxis on Fifth Avenue" width="1400" height="2100" loading="lazy"></span>
+        <figcaption class="visit__cap">Two blocks from the Flatiron Building.</figcaption>
       </figure>
     </div>
   </section>
@@ -450,11 +493,14 @@
   </section>
 </dialog>
 
+<div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+<div class="hover-preview" aria-hidden="true"><img alt=""></div>
+
 <div class="mobile-cta">
   <a class="btn btn--line" href="tel:+12122531850">Call</a>
   <a class="btn btn--solid" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental" data-book>Book online</a>
 </div>
 
-<script src="assets/js/main.js?v=202611231625"></script>
+<script src="assets/js/main.js?v=202611231630"></script>
 </body>
 </html>

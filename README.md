@@ -25,3 +25,7 @@ Site estático: `index.html` + `assets/css/styles.css` + fotos reais do consult�
 ## Foto do topo
 
 A foto principal (`assets/img/hero.jpg`) é uma imagem genérica do Unsplash, de uso livre, espelhada para os rostos ficarem à direita. Ela serve só para o protótipo. O ideal é trocar por uma sessão de fotos profissional da equipe e do consultório da Gotham Dental antes de publicar. Fonte: https://unsplash.com/photos/Bg81yWKZlMg
+
+## Outras imagens genéricas (Unsplash, uso livre)
+
+`tooth-render.jpg`, `flatiron.jpg`, `smile1–7.jpg`, `aligner.jpg`, `aligner2.jpg`, `veneers.jpg` e `implant.jpg` também são do Unsplash e servem só para o protótipo. As fotos de sorrisos são ilustrativas, não de pacientes da clínica.
