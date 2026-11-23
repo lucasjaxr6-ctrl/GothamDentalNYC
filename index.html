@@ -61,6 +61,7 @@
   </div>
 </div>
 
+<div class="progress" aria-hidden="true"></div>
 <header class="nav">
   <div class="wrap nav__inner">
     <a href="#top" class="nav__logo" aria-label="Gotham Dental, home">
@@ -74,7 +75,7 @@
       <a href="#reviews">Reviews</a>
       <a href="#visit">Visit</a>
       <a class="nav__phone" href="tel:+12122531850">(212) 253-1850</a>
-      <a class="btn btn--solid btn--sm" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental">Book online</a>
+      <a class="btn btn--solid btn--sm" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental" data-book>Book online</a>
     </nav>
   </div>
 </header>
@@ -86,19 +87,19 @@
     <div class="wrap hero__grid">
       <div class="hero__copy">
         <p class="eyebrow">Union Square · Flatiron · NYC</p>
-        <h1>Dentistry,<br><em>in a gallery.</em></h1>
+        <h1 class="split"><span class="line"><span>Dentistry,</span></span><span class="line"><span><em>in a gallery.</em></span></span></h1>
         <p class="lead">A boutique practice where your dentist knows your name, every specialist is under one roof, and the walls are hung with contemporary art.</p>
         <div class="hero__ctas">
-          <a class="btn btn--solid" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental">Book your visit</a>
+          <a class="btn btn--solid" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental" data-book>Book your visit</a>
           <a class="btn btn--line" href="tel:+12122531850">Call (212) 253-1850</a>
         </div>
         <div class="rating" aria-label="Rated 4.9 out of 5 by our patients">
-          <span class="rating__score">4.9</span>
+          <span class="rating__score" data-count="4.9">4.9</span>
           <span class="rating__stars" aria-hidden="true">★★★★★</span>
           <span class="rating__text">rated by our patients<br>most PPO plans accepted</span>
         </div>
       </div>
-      <figure class="hero__art">
+      <figure class="hero__art porthole">
         <img src="assets/img/gallery1.jpg" alt="A treatment room seen through a round porthole window, with paintings on the wall" width="1000" height="667">
         <figcaption class="label">
           <span class="label__no">Plate 01</span>
@@ -112,40 +113,34 @@
   <section class="press" aria-label="Press">
     <div class="wrap press__inner">
       <span class="press__title">As featured in</span>
-      <ul class="press__list">
-        <li>The New York Times <em>T Magazine</em></li>
-        <li>Financial Times</li>
-        <li>Entrepreneur</li>
-        <li>American Academy of Cosmetic Dentistry</li>
-        <li>Whitney Museum of American Art</li>
-      </ul>
+      <div class="marquee" aria-hidden="false"><ul class="press__list marquee__track"><li>The New York Times <em>T Magazine</em></li><li>Financial Times</li><li>Entrepreneur</li><li>American Academy of Cosmetic Dentistry</li><li>Whitney Museum of American Art</li></ul><ul class="press__list marquee__track" aria-hidden="true"><li>The New York Times <em>T Magazine</em></li><li>Financial Times</li><li>Entrepreneur</li><li>American Academy of Cosmetic Dentistry</li><li>Whitney Museum of American Art</li></ul></div>
     </div>
   </section>
 
   <!-- WHY -->
   <section class="section" id="why">
     <div class="wrap">
-      <div class="section__head">
+      <div data-reveal class="section__head">
         <p class="eyebrow">Why patients stay for decades</p>
         <h2>Not the biggest chain on the block. <em>On purpose.</em></h2>
       </div>
       <div class="pillars">
-        <article class="pillar">
+        <article data-reveal class="pillar">
           <span class="pillar__no">01</span>
           <h3>Every specialist, one address</h3>
           <p>General dentist, periodontist, endodontist and oral surgeon all practice here, so your care never gets lost in referrals.</p>
         </article>
-        <article class="pillar">
+        <article data-reveal class="pillar">
           <span class="pillar__no">02</span>
           <h3>Crowns in a single visit</h3>
           <p>With CEREC, we design, mill and place your crown the same day. No temporary, no second appointment.</p>
         </article>
-        <article class="pillar">
+        <article data-reveal class="pillar">
           <span class="pillar__no">03</span>
           <h3>Gentle by design</h3>
           <p>The Wand computer-guided anesthesia, sedation options and color-therapy glasses for anyone who dreads the chair.</p>
         </article>
-        <article class="pillar">
+        <article data-reveal class="pillar">
           <span class="pillar__no">04</span>
           <h3>Same-day emergencies</h3>
           <p>Broken tooth or sudden pain? Call us first. We fit you in the same day whenever possible.</p>
@@ -157,12 +152,12 @@
   <!-- CARE -->
   <section class="section section--ink" id="care">
     <div class="wrap">
-      <div class="section__head">
+      <div data-reveal class="section__head">
         <p class="eyebrow">Our care</p>
         <h2>Complete dentistry, <em>quietly done well.</em></h2>
       </div>
       <div class="care">
-        <div class="care__col">
+        <div data-reveal class="care__col">
           <h3>Preventive</h3>
           <ul>
             <li><a href="https://gothamdental.com/hygiene">Cleanings &amp; exams</a></li>
@@ -171,7 +166,7 @@
             <li><a href="https://gothamdental.com/emergency">Emergency care</a></li>
           </ul>
         </div>
-        <div class="care__col">
+        <div data-reveal class="care__col">
           <h3>Cosmetic</h3>
           <ul>
             <li><a href="https://gothamdental.com/whitening">Teeth whitening</a></li>
@@ -180,7 +175,7 @@
             <li>Bonding &amp; smile design</li>
           </ul>
         </div>
-        <div class="care__col">
+        <div data-reveal class="care__col">
           <h3>Restorative &amp; surgical</h3>
           <ul>
             <li><a href="https://gothamdental.com/fillings">Fillings</a></li>
@@ -197,7 +192,7 @@
   <!-- THE SPACE -->
   <section class="section" id="space">
     <div class="wrap">
-      <div class="section__head section__head--split">
+      <div data-reveal class="section__head section__head--split">
         <div>
           <p class="eyebrow">The space</p>
           <h2>Natural light, calm rooms, <em>real art.</em></h2>
@@ -205,16 +200,16 @@
         <p class="section__aside">Our office has been written about by the <em>T Magazine</em> and the <em>Financial Times</em> for its art collection. Patients tell us it is the first dental office they have ever looked forward to visiting.</p>
       </div>
       <div class="gallery">
-        <figure class="gallery__item gallery__item--wide">
-          <img src="assets/img/gallery3.jpg" alt="Bright treatment room with a large window, plants and framed artwork" width="1000" height="669" loading="lazy">
+        <figure data-reveal class="gallery__item gallery__item--wide">
+          <span class="frame"><img data-parallax-img src="assets/img/gallery3.jpg" alt="Bright treatment room with a large window, plants and framed artwork" width="1000" height="669" loading="lazy"></span>
           <figcaption class="label"><span class="label__no">Plate 02</span> Treatment room with natural light.</figcaption>
         </figure>
-        <figure class="gallery__item">
-          <img src="assets/img/gallery2.jpg" alt="Blue neon artwork glowing on a dark wall" width="1000" height="667" loading="lazy">
+        <figure data-reveal class="gallery__item">
+          <span class="frame"><img data-parallax-img src="assets/img/gallery2.jpg" alt="Blue neon artwork glowing on a dark wall" width="1000" height="667" loading="lazy"></span>
           <figcaption class="label"><span class="label__no">Plate 03</span> Neon work from the practice collection.</figcaption>
         </figure>
-        <figure class="gallery__item">
-          <img src="assets/img/gallery4.jpg" alt="Waiting room with modern chairs, a round glass table and artwork" width="1000" height="667" loading="lazy">
+        <figure data-reveal class="gallery__item">
+          <span class="frame"><img data-parallax-img src="assets/img/gallery4.jpg" alt="Waiting room with modern chairs, a round glass table and artwork" width="1000" height="667" loading="lazy"></span>
           <figcaption class="label"><span class="label__no">Plate 04</span> The waiting room.</figcaption>
         </figure>
       </div>
@@ -224,32 +219,32 @@
   <!-- TECHNOLOGY -->
   <section class="section section--tint" id="technology">
     <div class="wrap">
-      <div class="section__head">
+      <div data-reveal class="section__head">
         <p class="eyebrow">Technology</p>
         <h2>Precise tools, <em>shorter visits.</em></h2>
       </div>
       <div class="tech">
-        <article class="tech__item">
+        <article data-reveal class="tech__item">
           <h3>CEREC same-day crowns</h3>
           <p>Digital design and in-office milling replace the two-visit routine and the temporary crown.</p>
         </article>
-        <article class="tech__item">
+        <article data-reveal class="tech__item">
           <h3>The Wand® single-tooth anesthesia</h3>
           <p>A computer-guided, pen-like handpiece that numbs only the tooth being treated. Pressure, not pain.</p>
         </article>
-        <article class="tech__item">
+        <article data-reveal class="tech__item">
           <h3>Infrared cavity detection</h3>
           <p>CariVu light imaging finds decay before it shows on an X-ray, so treatment can be smaller and less costly.</p>
         </article>
-        <article class="tech__item">
+        <article data-reveal class="tech__item">
           <h3>Digital X-rays</h3>
           <p>Up to 90% less radiation than film, with images you see on screen right away.</p>
         </article>
-        <article class="tech__item">
+        <article data-reveal class="tech__item">
           <h3>3D scanning &amp; digital impressions</h3>
           <p>No goopy trays. A quick scan gives an exact model for crowns, implants and Invisalign.</p>
         </article>
-        <article class="tech__item">
+        <article data-reveal class="tech__item">
           <h3>Color-therapy glasses</h3>
           <p>Soft tinted lenses that block exam-light glare and help anxious patients relax. Free, on request.</p>
         </article>
@@ -260,30 +255,30 @@
   <!-- TEAM -->
   <section class="section" id="team">
     <div class="wrap">
-      <div class="section__head">
+      <div data-reveal class="section__head">
         <p class="eyebrow">The team</p>
         <h2>Over twenty years in <em>their specialty fields.</em></h2>
       </div>
       <div class="team">
-        <article class="doc">
+        <article data-reveal class="doc">
           <img src="assets/img/samuelian.jpg" alt="Portrait of Dr. Avo Samuelian" width="540" height="480" loading="lazy">
           <h3>Dr. Avo Samuelian, DDS</h3>
           <p class="doc__role">General &amp; cosmetic dentistry</p>
           <p>NYU College of Dentistry, Omicron Kappa Upsilon. In private practice since 1998.</p>
         </article>
-        <article class="doc">
+        <article data-reveal class="doc">
           <img src="assets/img/hakopian.jpg" alt="Portrait of Dr. Carolina Hakopian" width="540" height="480" loading="lazy">
           <h3>Dr. Carolina Hakopian, DMD</h3>
           <p class="doc__role">Periodontics, implants &amp; general care</p>
           <p>University of São Paulo, NYU and Eastman Institute. Fluent in Portuguese and Spanish.</p>
         </article>
-        <article class="doc">
+        <article data-reveal class="doc">
           <img src="assets/img/toscano.jpg" alt="Portrait of Dr. Nicholas Toscano" width="571" height="558" loading="lazy">
           <h3>Dr. Nicholas Toscano, DDS</h3>
           <p class="doc__role">Board-certified periodontist</p>
           <p>Columbia University, 13 years with the U.S. Navy. Diplomate, American Board of Periodontology.</p>
         </article>
-        <article class="doc">
+        <article data-reveal class="doc">
           <img src="assets/img/montazem.jpg" alt="Portrait of Dr. Andre Montazem" width="540" height="480" loading="lazy">
           <h3>Dr. Andre Montazem</h3>
           <p class="doc__role">Oral &amp; maxillofacial surgeon</p>
@@ -305,23 +300,23 @@
   <!-- REVIEWS -->
   <section class="section" id="reviews">
     <div class="wrap">
-      <div class="section__head section__head--split">
+      <div data-reveal class="section__head section__head--split">
         <div>
           <p class="eyebrow">Reviews</p>
-          <h2><span class="big">4.9</span> <em>out of 5.</em></h2>
+          <h2><span class="big" data-count="4.9">4.9</span> <em>out of 5.</em></h2>
         </div>
         <p class="section__aside">Verified reviews from Google, Zocdoc and Birdeye. We read every one.</p>
       </div>
       <div class="reviews">
-        <blockquote class="review">
+        <blockquote data-reveal class="review">
           <p>“The office has the most dazzling art collection, and the most up to date equipment; a friendly and organized staff.”</p>
           <footer>Google review</footer>
         </blockquote>
-        <blockquote class="review">
+        <blockquote data-reveal class="review">
           <p>“BEST dentist experience in NYC. Highly recommend this office. Staff is very friendly and shows genuine care.”</p>
           <footer>Zocdoc, verified patient</footer>
         </blockquote>
-        <blockquote class="review">
+        <blockquote data-reveal class="review">
           <p>“Was looking for a new dentist for emergency. Gotham Dental saw me the same day, diagnosed and started to repair problem…”</p>
           <footer>Ross E., patient since 2014</footer>
         </blockquote>
@@ -337,7 +332,7 @@
         <p class="eyebrow">Insurance &amp; payment</p>
         <h2>Clear costs, <em>before we begin.</em></h2>
       </div>
-      <ul class="checks">
+      <ul class="checks" data-reveal>
         <li>We accept most PPO dental plans, including Aetna, Cigna, Delta Dental, Guardian and MetLife, and file claims for you.</li>
         <li>We walk you through coverage, copays and out-of-pocket costs before any treatment.</li>
         <li>No insurance? Ask about our membership plans and financing.</li>
@@ -353,7 +348,7 @@
         <p class="eyebrow">Questions</p>
         <h2>Before your <em>first visit.</em></h2>
       </div>
-      <div class="faq__list">
+      <div class="faq__list" data-reveal>
         <details>
           <summary>Are you accepting new patients?</summary>
           <p>Yes. Book online any time or call us during office hours. At your first visit we take digital X-rays, review your history and build a personal treatment plan. You can fill in your forms online beforehand.</p>
@@ -381,7 +376,7 @@
   <!-- VISIT -->
   <section class="section section--ink" id="visit">
     <div class="wrap visit">
-      <div class="visit__info">
+      <div class="visit__info" data-reveal>
         <p class="eyebrow">Visit us</p>
         <h2>5 East 19th Street, <em>5th floor.</em></h2>
         <p>Between Fifth Avenue and Broadway, steps from Union Square, the Flatiron Building and Madison Square Park.</p>
@@ -392,12 +387,12 @@
           <div><dt>Subway</dt><dd>4, 5, 6, L, N, Q, R, W to 14 St–Union Square</dd></div>
         </dl>
         <div class="hero__ctas">
-          <a class="btn btn--light" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental">Book online</a>
+          <a class="btn btn--light" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental" data-book>Book online</a>
           <a class="btn btn--line-light" href="https://www.google.com/maps/place/Gotham+Dental/@40.739007,-73.9928527,17z">Get directions</a>
         </div>
       </div>
-      <figure class="visit__art">
-        <img src="assets/img/office.jpg" alt="Lounge chairs in a softly lit blue room" width="1500" height="800" loading="lazy">
+      <figure class="visit__art" data-parallax>
+        <span class="frame"><img src="assets/img/office.jpg" alt="Lounge chairs in a softly lit blue room" width="1500" height="800" loading="lazy"></span>
       </figure>
     </div>
   </section>
@@ -417,23 +412,52 @@
   </div>
 </footer>
 
+<dialog class="book" id="book" aria-labelledby="book-title">
+  <form method="dialog" class="book__close-form"><button class="book__close" aria-label="Close">×</button></form>
+  <div class="book__steps" aria-hidden="true"><span class="is-on"></span><span></span><span></span></div>
+
+  <section class="book__step is-active" data-step="1">
+    <p class="eyebrow">Book a visit · 1 of 3</p>
+    <h2 id="book-title">What brings you <em>in?</em></h2>
+    <div class="book__options">
+      <button type="button" data-pick="reason" data-value="Cleaning &amp; check-up">Cleaning &amp; check-up</button>
+      <button type="button" data-pick="reason" data-value="Tooth pain or emergency">Tooth pain or emergency</button>
+      <button type="button" data-pick="reason" data-value="Whitening, veneers or Invisalign">Whitening, veneers or Invisalign</button>
+      <button type="button" data-pick="reason" data-value="Crown, implant or root canal">Crown, implant or root canal</button>
+      <button type="button" data-pick="reason" data-value="Second opinion">Second opinion</button>
+    </div>
+  </section>
+
+  <section class="book__step" data-step="2">
+    <p class="eyebrow">Book a visit · 2 of 3</p>
+    <h2>Have you visited <em>us before?</em></h2>
+    <div class="book__options">
+      <button type="button" data-pick="patient" data-value="New patient">I'm a new patient</button>
+      <button type="button" data-pick="patient" data-value="Returning patient">I'm a returning patient</button>
+    </div>
+    <p class="book__hint">Prefer Portuguese or Spanish? Dr. Carolina Hakopian sees patients in both.</p>
+    <button type="button" class="book__back" data-back>← Back</button>
+  </section>
+
+  <section class="book__step" data-step="3">
+    <p class="eyebrow">Book a visit · 3 of 3</p>
+    <h2>You're <em>all set.</em></h2>
+    <p class="book__summary" id="book-summary"></p>
+    <p class="book__note" id="book-note"></p>
+    <div class="book__final">
+      <a class="btn btn--solid" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental">Choose your time</a>
+      <a class="btn btn--line" href="tel:+12122531850">Or call (212) 253-1850</a>
+    </div>
+    <p class="book__hint">You'll pick your day and time on our secure booking page.</p>
+    <button type="button" class="book__back" data-back>← Back</button>
+  </section>
+</dialog>
+
 <div class="mobile-cta">
   <a class="btn btn--line" href="tel:+12122531850">Call</a>
-  <a class="btn btn--solid" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental">Book online</a>
+  <a class="btn btn--solid" href="https://book.modento.io/c/0451fbe190db48a1b8116b1282dd9880/Gothamdental" data-book>Book online</a>
 </div>
 
-<script>
-  (function () {
-    var btn = document.querySelector('.nav__toggle');
-    var menu = document.getElementById('menu');
-    btn.addEventListener('click', function () {
-      var open = menu.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-    menu.addEventListener('click', function (e) {
-      if (e.target.tagName === 'A') { menu.classList.remove('is-open'); btn.setAttribute('aria-expanded', 'false'); }
-    });
-  })();
-</script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
