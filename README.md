@@ -21,3 +21,7 @@ Site estático: `index.html` + `assets/css/styles.css` + fotos reais do consult�
 - Os convênios listados (Aetna, Cigna, Delta Dental, Guardian, MetLife), que vieram do Zocdoc.
 - A autorização para usar os trechos de avaliações e as fotos.
 - Fotos de antes e depois de casos reais, para uma futura seção de resultados.
+
+## Foto do topo
+
+A foto principal (`assets/img/hero.jpg`) é uma imagem genérica do Unsplash, de uso livre, espelhada para os rostos ficarem à direita. Ela serve só para o protótipo. O ideal é trocar por uma sessão de fotos profissional da equipe e do consultório da Gotham Dental antes de publicar. Fonte: https://unsplash.com/photos/Bg81yWKZlMg

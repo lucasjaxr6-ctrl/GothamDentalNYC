@@ -68,6 +68,8 @@
     nav.classList.toggle('is-scrolled', y > 24);
     if (reduce) return;
 
+    const heroMedia = document.querySelector('.hero__media');
+    if (heroMedia && y < window.innerHeight * 1.2) heroMedia.style.transform = 'translateY(' + (y * 0.25).toFixed(1) + 'px)';
     if (porthole) {
       const r = porthole.getBoundingClientRect();
       const p = Math.min(1, Math.max(0, 1 - (r.top + r.height * 0.35) / window.innerHeight));
